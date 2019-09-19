@@ -1,0 +1,191 @@
+/*расположение карточки*/
+.product {
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    min-height: 470px;
+}
+/*границы карточки*/
+.border-gray {
+    border: 2px gray solid;
+}
+.border-gray:hover {
+    box-shadow: 0 0 3px gray;
+}
+/*картинки*/
+.product-img {
+}
+.product-img img {
+    height: 150px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    background: #0f6674;
+}
+/*теги*/
+.product-teg {
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    padding: 5px 10px;
+    z-index: 1;
+}
+/*акция*/
+.low-carb-food {
+    background: rgb(90,185,176);
+    color: white;
+    font-weight: bold;
+    font-size: 0.85em;
+}
+/*низкоуглеводная еда*/
+.share {
+    background: rgba(203, 0, 0, 0.66);
+    color: white;
+    font-weight: bold;
+    font-size: 0.85em;
+}
+/*подарок*/
+.prize {
+    background: rgb(235,181,60);
+    color: white;
+    font-weight: bold;
+    font-size: 0.85em;
+}
+/*иконки*/
+.product-icon-heart {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    z-index: 1;
+}
+.product-icon-heart svg:hover {
+    stroke: rgb(218,65,67);
+}
+.product-icon-bar-chart{
+    position: absolute;
+    right: 30px;
+    top: 50px;
+    z-index: 1;
+}
+.product-icon-bar-chart svg:hover {
+    stroke: rgba(0, 124, 210, 0.59);
+}
+/*имя продукта*/
+.product-name {
+    padding: 10px 30px;
+    text-align: center;
+    font-weight: bold;
+    height: 100px;
+}
+a {
+    color: black;
+}
+.product-name a:hover {
+    color: rgb(117,154,61);
+    text-decoration: none;
+}
+/*кол-во звезд и статус наличия товара*/
+.star-and-status {
+    margin-top: 0px;
+    margin-left: 20%;
+    width: 60%;
+    height: 20px;
+}
+.star-and-status-no {
+    margin-top: 0px;
+    margin-left: 15%;
+    width: 70%;
+    height: 20px;
+}
+.star svg{
+    position: relative;
+    margin-top: 5px;
+    width: 13px;
+    height: 11px;
+    float: left;
+    stroke: rgb(247,206,69);
+    stroke-width: 20px;
+    fill: white;
+}
+.full svg{
+    fill: rgb(247,206,69);
+}
+.status {
+    margin-left: 15px;
+}
+.status svg {
+    stroke: rgb(117,154,61);
+    position: relative;
+    float: right;
+    margin-left: 0px;
+    height: 15px;
+    margin-top: 4px;
+}
+.status-no {
+    margin-left: 15px;
+}
+.status-no svg {
+    stroke: rgb(218,65,67);
+    position: relative;
+    float: right;
+    margin-left: 0px;
+    height: 15px;
+    margin-top: 4px;
+}
+.vertical-center {
+    position: relative;
+    float: right;
+    font-weight: normal;
+    font-size: 0.8em;
+    margin-left: 0px;
+}
+/*цена*/
+.old-price {
+    text-align: center;
+    text-decoration: line-through;
+    color: gray;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+.new-price {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.price {
+    margin-top: 30px;
+    margin-bottom: 55px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+/*Экономия*/
+.save-money {
+    text-align: center;
+    font-size: 0.85em;
+    margin-top: 5px;
+}
+.save-money-text {
+    color: gray;
+}
+.save-money-price {
+    background: rgb(252,224,73);
+    font-weight: bold;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+/*кнопка в корзину*/
+.position-button-buy {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 30px;
+}
+a.button-buy {
+    color: #fff;
+    text-decoration: none;
+    background: rgb(117,154,61);
+    padding: .6em 2.5em;
+    font-weight: bold;
+}
+a.button-buy:hover { box-shadow: 0 0 3px gray; } /* при наведении курсора мышки */
+a.button-buy:active { background: rgb(88, 118, 52); } /* при нажатии */
